@@ -9,6 +9,9 @@ class Product
  String prod_name,brand; 
  //object of scanner class
  Scanner b=new Scanner(System.in); 
+ System.out.println("enter no of products u want to display:"); 
+ int n=b.nextInt();
+ for(int i=1;i<=n;i++) {
   System.out.println("enter product id"); 
   prod_id=b.nextInt(); 
   System.out.println("enter quantity"); 
@@ -26,4 +29,4 @@ class Product
   System.out.println(brand); 
   System.out.println(prod_price); 
  } 
-}
+}}
